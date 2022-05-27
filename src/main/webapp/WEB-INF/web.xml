@@ -8,8 +8,43 @@
         <servlet-name>FirstServlet</servlet-name>
         <servlet-class>com.example.firstservletcreation.HelloServlet</servlet-class>
     </servlet>
+    
     <servlet-mapping>
         <servlet-name>FirstServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <servlet-class>com.example.firstservletcreation.SetCookiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <url-pattern>/set-cookies</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <servlet-class>com.example.firstservletcreation.GetCookiesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <url-pattern>/get-cookies</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>DeleteCookiesServlet</servlet-name>
+        <servlet-class>com.example.firstservletcreation.DeleteCookiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCookiesServlet</servlet-name>
+        <url-pattern>/delete-cookies</url-pattern>
+    </servlet-mapping>
+
+
+
+
 </web-app>
